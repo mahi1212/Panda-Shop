@@ -30,13 +30,13 @@
                             <a class="nav-link active" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#Shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#Backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -124,9 +124,9 @@
             </div>
         </section>
         <!-- Shoes section starts here -->
-        <section class="container my-5">
+        <section class="container my-5" id="Shoes">
             <h2 class="mb-3">Shoes</h2>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-md-3 g-5">
                 <div class="col">
                     <div class="card h-100 border-0 py-3">
                         <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
@@ -165,9 +165,9 @@
                 </div>
             </div>
         </section>
-        <section class="container my-5">
+        <section class="container my-5" id="Backpack">
             <h2 class="mb-3">Backpack</h2>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-md-3 g-5">
                 <div class="col">
                     <div class="card h-100 border-0 py-3">
                         <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
@@ -210,22 +210,16 @@
             </div>
         </section>
         <!-- subscribe section -->
-        <section class="container">
-            <div class="col-lg-8">
-                <div class="row justify-content-end">
-                    <div class="col-lg-6 text-center">
-                        <h5>LET'S STAY IN TOUCH</h5>
-                        <p>Get updates on sales & specials</p>
-                        <div>
-                            <input type="text" name="msg" id="msg">
-                            <div class="btn btn-danger">Submit</div>
-                        </div>                        
-                    </div>
-                </div>
-            </div>
+        <section id="subscribe" class="container d-flex justify-content-center align-items-center flex-column my-4 rounded-3">
+            <h5>LET'S STAY IN TOUCH</h5>
+            <p>Get updates on sales & specials</p>
+            <div>
+               <input type="text" name="msg" id="msg">
+                <button class="btn btn-danger">Submit</button>
+            </div> 
         </section>
     </main>
-    <footer class="my-4"> 
+    <footer class="my-5"> 
         <p class="text-center">Copyright &copy; All right reserved by M Rahman Mahi || 2021</p>
     </footer>
     <!------------------ Bootstrap5 JS cdn --------------->
